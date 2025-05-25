@@ -1,0 +1,4 @@
+<header style="display: flex; align-items: center; gap: 15px; padding: 10px;">
+  <img src="images/logo.png" alt="Active Physio Clinics and Centre Logo" style="height: 60px;">
+  <h1 style="margin: 0;">Active Physio Clinics and Centre</h1>
+</header>
