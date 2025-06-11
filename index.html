@@ -1,57 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
   <title>Active Physio Clinics and Centre</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background-color: #005a9c;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+    }
+    .button {
+      background-color: #007acc;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      margin: 10px;
+      display: inline-block;
+    }
+    .logo {
+      height: 50px;
+    }
+    .services, .contact, .map {
+      padding: 20px;
+      text-align: center;
+    }
+    iframe {
+      width: 100%;
+      height: 250px;
+      border: 0;
+    }
+  </style>
 </head>
 <body>
-  <header class="navbar">
-    <div class="logo-container">
-      <img src="images/logo.png" alt="Logo" class="logo">
-      <h1>Active Physio Clinics</h1>
-    </div>
+  <header>
+    <img src="images/logo.png" alt="Clinic Logo" class="logo">
+    <h1>Active Physio Clinics and Centre</h1>
     <nav>
       <a href="index.html">Home</a>
-      <a href="services.html">Services</a>
       <a href="about.html">About Us</a>
-      <a href="contact.html">Contact</a>
+      <a href="services.html">Our Services</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="blog.html">Blog</a>
     </nav>
   </header>
 
-  <section class="hero">
-    <h2>Your Health, Our Priority</h2>
-    <p>Expert Physiotherapy care tailored to your recovery journey.</p>
-    <a href="7870056574.html" class="btn">Book Appointment</a>
-  </section>
+  <main>
+    <section class="services">
+      <h2>Welcome to Active Physio Clinics and Centre</h2>
+      <p>Your trusted physiotherapy partner. We offer professional care, home visits, and personalized rehabilitation plans.</p>
+      <a href="services.html" class="button">Explore Services</a>
+      <a href="contact.html" class="button">Book Appointment</a>
+    </section>
 
-  <section class="services">
-    <h2>Our Services</h2>
-    <div class="cards">
-      <div class="card">
-        <h3>Sports Physiotherapy</h3>
-        <p>Advanced care for sports injuries and performance improvement.</p>
-      </div>
-      <div class="card">
-        <h3>Home Care Visits</h3>
-        <p>Professional physiotherapy in the comfort of your home.</p>
-      </div>
-      <div class="card">
-        <h3>Post-Operative Rehab</h3>
-        <p>Customized recovery plans after surgeries and joint replacements.</p>
-      </div>
-    </div>
-  </section>
+    <section class="contact">
+      <h3>Call Us Anytime</h3>
+      <p><a href="tel:+917870056547" style="font-weight:bold;">📞 +91 7870056547</a></p>
+    </section>
+
+    <section class="map">
+      <h3>Our Location</h3>
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!..." 
+        allowfullscreen="" 
+        loading="lazy">
+      </iframe>
+    </section>
+  </main>
 
   <footer>
-    <p>&copy; 2025 Active Physio Clinics and Centre</p>
-    <p>
-      <a href="https://wa.me/yourwhatsapplink">WhatsApp</a> |
-      <a href="https://instagram.com/activephysiocentre">Instagram</a> |
-      <a href="mailto: activephysio.inquiry@gmail.com">Email</a>
+    <p>Follow us on <a href="#activephysiocentre">Instagram</a> | 
+       <a href="https://wa.me/7870056547">WhatsApp</a> | 
+       <a href="mailto:activephysio.inquiry.com">Email</a>
     </p>
+    <p>&copy; 2025 Active Physio Clinics and Centre</p>
   </footer>
 </body>
 </html>
